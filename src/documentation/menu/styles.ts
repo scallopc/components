@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 export const ContainerMenuLateral = styled.div`
   height: 100%;
-  background:  ${(props) => props.theme.default.bgAlternative1};
+  background: ${(props) => props.theme.default.bgAlternative1};
 `;
 
 export const MenuContainer = styled.div`
- background:  ${(props) => props.theme.default.bgAlternative1};
+  background: ${(props) => props.theme.default.bgAlternative1};
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,6 @@ export const MenuContainer = styled.div`
   padding: 20px;
   overflow-y: auto;
 `;
-
 
 export const H4 = styled(Link)`
   cursor: pointer;

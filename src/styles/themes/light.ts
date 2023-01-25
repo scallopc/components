@@ -2,7 +2,7 @@ import colors from "../colors";
 
 export default {
   title: "light",
- 
+
   default: {
     background: colors.default.vdscBackground2Color,
     bgAlternative1: colors.primary.white,
@@ -30,8 +30,7 @@ export default {
 
     icon: {
       color: colors.default.vdscDarkHighColor,
-    }
-
+    },
   },
 
   button: {
@@ -82,5 +81,5 @@ export default {
   dropTenant: {
     background: colors.default.vdscDarkMediumColor,
     color: colors.default.vdscDarkMediumColor,
-  }
+  },
 };

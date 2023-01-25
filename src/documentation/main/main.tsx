@@ -6,13 +6,12 @@ import PageAvatars from "../pages/pageAvatars";
 import { useEffect } from "react";
 
 export default function MainComponents() {
-
   useEffect(() => {
-    if (location.hash == '#/') {
-      location.href = location.origin + '#/demo'
+    if (location.hash == "#/") {
+      location.href = location.origin + "#/demo";
     }
   }, []);
-  
+
   return (
     <ContainerMain>
       <MenuLateral />

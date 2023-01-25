@@ -47,7 +47,6 @@ export default function PageAvatars() {
           </Content>
         </div>
 
-    
         <div>
           <Content>
             <h3>Icon</h3>
@@ -68,7 +67,7 @@ export default function PageAvatars() {
             </ContentAvatars>
           </Content>
         </div>
-   
+
         <div>
           <Content>
             <h3>Image</h3>
@@ -121,13 +120,19 @@ export default function PageAvatars() {
           </SmallDetail>
           <Content>
             <Components>
-              <Detail><code>&lt;Avatar size="small" label="JC" /&gt;</code></Detail>
+              <Detail>
+                <code>&lt;Avatar size="small" label="JC" /&gt;</code>
+              </Detail>
             </Components>
             <Components>
-            <Detail><code>&lt;Avatar size="small" /&gt;</code></Detail>
+              <Detail>
+                <code>&lt;Avatar size="small" /&gt;</code>
+              </Detail>
             </Components>
             <Components>
-            <Detail><code>&lt;Avatar size="small" image="image.png" /&gt;</code></Detail>
+              <Detail>
+                <code>&lt;Avatar size="small" image="image.png" /&gt;</code>
+              </Detail>
             </Components>
           </Content>
           <br />
@@ -138,13 +143,19 @@ export default function PageAvatars() {
           </SmallDetail>
           <Content>
             <Components>
-            <Detail><code>&lt;Avatar size="small" label="JC" active="on" /&gt;</code></Detail>
+              <Detail>
+                <code>
+                  &lt;Avatar size="small" label="JC" active="on" /&gt;
+                </code>
+              </Detail>
             </Components>
           </Content>
           <br />
 
           <p>Properties </p>
-          <SmallDetail>We use some attributes to compose the component</SmallDetail>
+          <SmallDetail>
+            We use some attributes to compose the component
+          </SmallDetail>
           <Content>
             <Table>
               <TableRow>

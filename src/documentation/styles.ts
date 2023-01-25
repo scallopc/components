@@ -1,4 +1,4 @@
-import styled, { keyframes, css } from "styled-components";
+import styled from "styled-components";
 
 export const Content = styled.div`
   display: flex;
@@ -63,7 +63,7 @@ export const DocumentationContainer = styled.div`
 `;
 
 export const H5 = styled.h5`
- color: ${(props) => props.theme.default.colorAlternative1};
+  color: ${(props) => props.theme.default.colorAlternative1};
   font-size: 14px;
 `;
 

@@ -64,25 +64,24 @@ declare module "styled-components" {
     };
 
     toggle: {
-        colorActive: string,
-        colorDisabled: string,
-      },
-    
-      scrollbar: {
-        colorTrack: string,
-        colorThumb: string,
-        colorThumbHover: string,
-      },
-    
-      line: {
-        color: string,
-      },
-    
-      iconDefaultFak: {
-        color: string,
-      },
+      colorActive: string;
+      colorDisabled: string;
+    };
 
-      
+    scrollbar: {
+      colorTrack: string;
+      colorThumb: string;
+      colorThumbHover: string;
+    };
+
+    line: {
+      color: string;
+    };
+
+    iconDefaultFak: {
+      color: string;
+    };
+
     ddTenant: {
       background: string;
       color: string;

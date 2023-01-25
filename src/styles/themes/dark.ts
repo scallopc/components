@@ -30,7 +30,7 @@ export default {
 
     icon: {
       color: colors.default.vdscDarkLowColor,
-    }
+    },
   },
 
   button: {
@@ -57,7 +57,6 @@ export default {
     bgTableFocus: colors.default.vdscDarkHighColor,
     borderCB: colors.default.vdscLightHighColor,
     borderCBHover: colors.default.vdscAuxiliaryBlueMediumColor,
-    
   },
 
   toggle: {
@@ -82,5 +81,5 @@ export default {
   dropTenant: {
     background: colors.default.vdscDarkMediumColor,
     color: colors.default.vdscDarkMediumColor,
-  }
+  },
 };

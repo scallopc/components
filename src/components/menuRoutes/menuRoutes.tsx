@@ -15,7 +15,7 @@ export default function MenuRoutes({ to, icon, title }: IMenuRoutes) {
   return (
     <Link to={to}>
       <Container className={btnClass}>
-        <IconContainer icon={icon} />
+        <IconContainer className={icon} />
         <Title>{title}</Title>
       </Container>
     </Link>

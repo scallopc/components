@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const IconContainer = styled(FontAwesomeIcon)`
+export const IconContainer = styled.i`
   font-size: 18px;
 `;
 

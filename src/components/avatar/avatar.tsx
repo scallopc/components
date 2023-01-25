@@ -12,12 +12,7 @@ export type IAvatar = {
   label?: string;
 };
 
-export default function Avatar({
-  size,
-  image,
-  active,
-  label,
-}: IAvatar) {
+export default function Avatar({ size, image, active, label }: IAvatar) {
   const randomColor = () => {
     let hex = Math.floor(Math.random() * 0xffffff);
     let color = "#" + hex.toString(16);
@@ -45,7 +40,7 @@ export default function Avatar({
 
   const handleActive = () => {
     if (active) {
-      return <LabelActive  active={active}/>;
+      return <LabelActive active={active} />;
     }
   };
 
