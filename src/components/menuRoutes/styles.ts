@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const IconContainer = styled.i`
   font-size: 18px;
@@ -12,7 +11,6 @@ export const Container = styled.div`
   gap: 8px;
   align-items: center;
   transition: all 0.1s ease;
-  color: ${(props) => props.theme.default.color};
   padding-left: 5px;
 
   &.active {

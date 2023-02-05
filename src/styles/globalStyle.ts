@@ -8,22 +8,28 @@ export const scroll = css`
     height: 5px;
   }
 
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #0063f7 #ffffff;
+  }
+
   /* Track */
   ::-webkit-scrollbar-track {
     box-shadow: 0;
     border-radius: 10px;
-    background: ${(props) => props.theme.scrollbar.colorTrack};
+    background-color: #ffffff;
   }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: ${(props) => props.theme.scrollbar.colorThumb};
+    background-color: #0063f7;
     border-radius: 10px;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: ${(props) => props.theme.scrollbar.colorThumbHover};
+    background-color: #0063f7;
   }
 `;
 
@@ -36,16 +42,23 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${(props) => props.theme.default.background};
-    color: ${(props) => props.theme.default.color};
+    background: #f7f6f6;
+    color: #03001C;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
     line-height: 20px;
   }
+  
+  ${scroll}
 
   a {
     text-decoration: none;
     color: initial;
   }
+
+  label {
+    font-size: 12px;
+  }
+
 `;

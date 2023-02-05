@@ -1,6 +1,7 @@
 import { Container, Image } from "./styles";
 import TableHeader from "./tableHeader";
 import TableRows from "./tableRows";
+import React  from 'react';
 
 type TableProps = {
   headers?: any;

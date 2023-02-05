@@ -7,7 +7,6 @@ export const Content = styled.div`
   justify-content: center;
   padding: 15px;
   border-radius: 10px;
-  background: ${(props) => props.theme.default.bgAlternative1};
   width: 100%;
 `;
 
@@ -16,7 +15,7 @@ export const H2 = styled.h2`
 `;
 
 export const Detail = styled.div`
-  color: ${(props) => props.theme.default.colorAlternative2};
+  color: 'green';
 `;
 
 export const Link = styled.a`
@@ -63,7 +62,6 @@ export const DocumentationContainer = styled.div`
 `;
 
 export const H5 = styled.h5`
-  color: ${(props) => props.theme.default.colorAlternative1};
   font-size: 14px;
 `;
 
@@ -78,7 +76,7 @@ export const TableRow = styled.div`
   grid-template-columns: repeat(3, 1fr);
   padding: 10px 0;
   gap: 5px;
-  border-bottom: 1px solid ${(props) => props.theme.line.color};
+  border-bottom: 1px solid #9fa8b2;
   font-size: 12px;
 
   &:last-of-type {

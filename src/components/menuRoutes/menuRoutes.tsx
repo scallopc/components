@@ -1,5 +1,6 @@
 import { Container, IconContainer, Title } from "./styles";
 import { Link, useLocation } from "react-router-dom";
+import React  from 'react';
 
 export type IMenuRoutes = {
   to: string;

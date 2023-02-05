@@ -12,7 +12,8 @@ import {
   TableRow,
 } from "../styles";
 import styled from "styled-components";
-import Avatar from "../../components/avatar/avatar";
+import Line from "../../components/line/line";
+import React  from 'react';
 
 const ContentAvatars = styled.div`
   display: flex;
@@ -25,92 +26,6 @@ export default function PageAvatars() {
     <Container>
       <H2>Avatar</H2>
 
-      <Components>
-        <div>
-          <Content>
-            <h3>label</h3>
-            <ContentAvatars>
-              <Avatar size="small" label="JC" />
-              <Avatar size="medium" label="JC" />
-              <Avatar size="large" label="JC" />
-            </ContentAvatars>
-          </Content>
-        </div>
-        <div>
-          <Content>
-            <h3>label - active</h3>
-            <ContentAvatars>
-              <Avatar size="small" label="JC" active="on" />
-              <Avatar size="medium" label="JC" active="on" />
-              <Avatar size="large" label="JC" active="on" />
-            </ContentAvatars>
-          </Content>
-        </div>
-
-        <div>
-          <Content>
-            <h3>Icon</h3>
-            <ContentAvatars>
-              <Avatar size="small" />
-              <Avatar size="medium" />
-              <Avatar size="large" />
-            </ContentAvatars>
-          </Content>
-        </div>
-        <div>
-          <Content>
-            <h3>Icon - active</h3>
-            <ContentAvatars>
-              <Avatar size="small" active="on" />
-              <Avatar size="medium" active="on" />
-              <Avatar size="large" active="on" />
-            </ContentAvatars>
-          </Content>
-        </div>
-
-        <div>
-          <Content>
-            <h3>Image</h3>
-            <ContentAvatars>
-              <Avatar
-                size="small"
-                image="https://avatars.githubusercontent.com/u/39253660?v=4"
-              />
-              <Avatar
-                size="medium"
-                image="https://avatars.githubusercontent.com/u/39253660?v=4"
-              />
-              <Avatar
-                size="large"
-                image="https://avatars.githubusercontent.com/u/39253660?v=4"
-              />
-            </ContentAvatars>
-          </Content>
-        </div>
-        <div>
-          <Content>
-            <h3>Image - active</h3>
-            <ContentAvatars>
-              <Avatar
-                size="small"
-                image="https://avatars.githubusercontent.com/u/39253660?v=4"
-                active="on"
-              />
-              <Avatar
-                size="medium"
-                image="https://avatars.githubusercontent.com/u/39253660?v=4"
-                active="on"
-              />
-              <Avatar
-                size="large"
-                image="https://avatars.githubusercontent.com/u/39253660?v=4"
-                active="on"
-              />
-            </ContentAvatars>
-          </Content>
-        </div>
-      </Components>
-
       <Box>
         <H5>Documentation</H5>
         <DocumentationContainer>
@@ -120,19 +35,13 @@ export default function PageAvatars() {
           </SmallDetail>
           <Content>
             <Components>
-              <Detail>
-                <code>&lt;Avatar size="small" label="JC" /&gt;</code>
-              </Detail>
+              <Detail><code>&lt;Avatar size="small" label="JC" /&gt;</code></Detail>
             </Components>
             <Components>
-              <Detail>
-                <code>&lt;Avatar size="small" /&gt;</code>
-              </Detail>
+            <Detail><code>&lt;Avatar size="small" /&gt;</code></Detail>
             </Components>
             <Components>
-              <Detail>
-                <code>&lt;Avatar size="small" image="image.png" /&gt;</code>
-              </Detail>
+            <Detail><code>&lt;Avatar size="small" image="image.png" /&gt;</code></Detail>
             </Components>
           </Content>
           <br />
@@ -143,19 +52,13 @@ export default function PageAvatars() {
           </SmallDetail>
           <Content>
             <Components>
-              <Detail>
-                <code>
-                  &lt;Avatar size="small" label="JC" active="on" /&gt;
-                </code>
-              </Detail>
+            <Detail><code>&lt;Avatar size="small" label="JC" active="on" /&gt;</code></Detail>
             </Components>
           </Content>
           <br />
 
           <p>Properties </p>
-          <SmallDetail>
-            We use some attributes to compose the component
-          </SmallDetail>
+          <SmallDetail>We use some attributes to compose the component</SmallDetail>
           <Content>
             <Table>
               <TableRow>
@@ -163,16 +66,19 @@ export default function PageAvatars() {
                 <b>Type</b>
                 <b>Description</b>
               </TableRow>
+              <Line direction="horizontal"/>
               <TableRow>
                 <div>label</div>
                 <div>string</div>
                 <div>Defines the initial to display</div>
               </TableRow>
+              <Line direction="horizontal"/>
               <TableRow>
                 <div>icon</div>
                 <div>string</div>
                 <div>Defines the icon to display</div>
               </TableRow>
+              <Line direction="horizontal"/>
               <TableRow>
                 <div>size</div>
                 <div>string</div>

@@ -6,11 +6,11 @@ export const Container = styled.table`
   font-size: 12px;
   padding: 10px;
   border-radius: 5px;
-  background: ${(props) => props.theme.default.bgAlternative1};
+  background: #fff;
 
   td {
     padding: 8px 0;
-    border-top: 1px solid ${(props) => props.theme.line.color};
+    border-top: 1px solid #301E67;
   }
 
   th {
